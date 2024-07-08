@@ -35,7 +35,7 @@ const Navbar = () => {
       </h4>
       <ul className="flex justify-between items-center space-x-4">
         {Links.map((link) => (
-          <Link className={`${pathName===link.path && 'text-indigo-900'}`} key={link.path} href={link.path}>
+          <Link className={`${pathName===link.path && 'text-indigo-900 font-medium underline'}`} key={link.path} href={link.path}>
             {link.title}
           </Link>
         ))}

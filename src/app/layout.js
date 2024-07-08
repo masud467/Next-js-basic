@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         {/* nav start */}
         <Navbar></Navbar>
        
-        <div className="h-screen">
+        <div className="">
         {children}
         </div>
         {/* footer start */}
